@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <link rel="stylesheet" href="/public/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanger - 创建造型</title>
+    <link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Inter, sans-serif;
+        }
+
+        .style-container {
+            width: 100%;
+            display: flex;
+            overflow: auto;
+            min-height: 100vh;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .style-style {
+            width: 100%;
+            height: 1024px;
+            display: flex;
+            overflow: hidden;
+            position: relative;
+            align-items: flex-start;
+            flex-shrink: 0;
+            background-color: #ffffff;
+        }
+
+        .style-frame4 {
+            top: 27px;
+            left: 25px;
+            width: 455px;
+            height: 146px;
+            display: flex;
+            overflow: hidden;
+            position: absolute;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            align-items: flex-start;
+            flex-shrink: 0;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+        }
+
+        .style-text1 {
+            top: 20px;
+            left: 50px;
+            color: rgba(61, 166, 110, 0.45);
+            height: auto;
+            position: absolute;
+            font-size: 64px;
+            font-style: Regular;
+            text-align: center;
+            font-family: Aladin;
+            font-weight: 400;
+            line-height: normal;
+            font-stretch: normal;
+            text-decoration: none;
+        }
+
+        .style-frame13 {
+            top: 503px;
+            left: 253px;
+            width: 427px;
+            height: 399px;
+            display: flex;
+            overflow: hidden;
+            position: absolute;
+            background: linear-gradient(180deg, rgba(176, 255, 193, 1) 0%, rgba(188, 209, 255, 1) 100%);
+            align-items: flex-start;
+            flex-shrink: 0;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .style-frame13:hover {
+            transform: translateY(-5px);
+        }
+
+        .style-text2 {
+            top: 171px;
+            left: 93px;
+            color: rgba(245, 245, 245, 1);
+            height: auto;
+            position: absolute;
+            font-size: 48px;
+            font-style: Regular;
+            text-align: left;
+            font-family: Aladin;
+            font-weight: 400;
+            line-height: normal;
+            font-stretch: normal;
+            text-decoration: none;
+        }
+
+        .style-frame14 {
+            top: 503px;
+            left: 753px;
+            width: 427px;
+            height: 399px;
+            display: flex;
+            overflow: hidden;
+            position: absolute;
+            background: linear-gradient(180deg, rgba(240, 246, 161, 1) 0%, rgba(152, 250, 158, 1) 100%);
+            align-items: flex-start;
+            flex-shrink: 0;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .style-frame14:hover {
+            transform: translateY(-5px);
+        }
+
+        .style-text3 {
+            top: 170px;
+            left: 128px;
+            color: rgba(255, 255, 255, 1);
+            height: auto;
+            position: absolute;
+            font-size: 48px;
+            font-style: Regular;
+            text-align: left;
+            font-family: Aladin;
+            font-weight: 400;
+            line-height: normal;
+            font-stretch: normal;
+            text-decoration: none;
+        }
+
+        .style-frame15 {
+            top: 213px;
+            left: 253px;
+            width: 927px;
+            height: 197px;
+            display: flex;
+            overflow: hidden;
+            position: absolute;
+            background: linear-gradient(0deg, rgba(152, 250, 234, 1) 0%, rgba(242, 161, 246, 1) 100%);
+            align-items: flex-start;
+            flex-shrink: 0;
+            border-radius: 30px;
+        }
+
+        .style-description-box {
+
+            top: 80px;
+            left: 64px;
+            width: 800px;
+            height: 64px;
+            position: absolute;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .style-description-input {
+            width: 650px;
+            height: 50px;
+            border: none;
+            outline: none;
+            background: transparent;
+            color: rgba(0, 0, 0, 0.7);
+            font-size: 24px;
+            font-style: Regular;
+            text-align: left;
+            font-family: Aladin;
+            font-weight: 400;
+            line-height: normal;
+            font-stretch: normal;
+            padding: 0 20px;
+            position: absolute;
+            top: 85px;
+            left: 74px;
+        }
+
+        .style-text7 {
+            top: 19px;
+            left: 94px;
+            color: rgba(0, 0, 0, 1);
+            height: auto;
+            position: absolute;
+            font-size: 48px;
+            font-style: Regular;
+            text-align: left;
+            font-family: Aladin;
+            font-weight: 400;
+            line-height: normal;
+            font-stretch: normal;
+            text-decoration: none;
+        }
+
+        .style-bookopen {
+            top: 26px;
+            left: 23px;
+            width: 48px;
+            height: 48px;
+            position: absolute;
+            filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+        }
+
+        .style-generate-btn {
+            top: 85px;
+            left: 780px;
+            width: 120px;
+            height: 64px;
+            position: absolute;
+            background: rgba(255, 255, 255, 0.9);
+            border: none;
+            border-radius: 15px;
+            color: rgba(0, 0, 0, 0.7);
+            font-family: Aladin;
+            font-size: 24px;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .style-generate-btn:hover {
+            background: rgba(255, 255, 255, 1);
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="style-container">
+        <div class="style-style">
+            <div class="style-frame4">
+                <span class="style-text1">HANGER</span>
+            </div>
+            <div class="style-frame13">
+                <span class="style-text2">From my closet</span>
+            </div>
+            <div class="style-frame14">
+                <span class="style-text3">Inspiration</span>
+            </div>
+            <div class="style-frame15">
+                <div class="style-description-box"></div>
+
+                <input type="text" class="style-description-input" placeholder="e.g. Girl, Summer beach party casual style">
+
+                <span class="style-text7">Describe your style</span>
+                <svg class="style-bookopen" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24 38C28 38 31.725 36.4625 34.375 33.8125C37.025 31.1625 38.5 27.5 38.5 23.5C38.5 19.5 37.025 15.8375 34.375 13.1875C31.725 10.5375 28 9 24 9C20 9 16.275 10.5375 13.625 13.1875C10.975 15.8375 9.5 19.5 9.5 23.5C9.5 27.5 10.975 31.1625 13.625 33.8125C16.275 36.4625 20 38 24 38Z" stroke="#000000" stroke-width="2"/>
+                    <path d="M24 15V32" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M18 21H30" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M18 27H30" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+
+
+            </div>
+        </div>
+    </div>
+    <script src="public/style.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+.closet-container {
+  display: flex;
+  flex-wrap: wrap;   /* 超出换行 */
+  gap: 16px;         /* 卡片间距稍大 */
+}
+.closet-header {
+  text-align: center;
+  margin: 16px 0;
+}
+
+.closet-text {
+  font-family: 'Aladin', cursive; /* 使用 Aladin 字体 */
+  font-size: 48px;                 /* 字体大小，可根据需要调 */
+  color: #333;
+  animation: fadeInDown 1s ease;   /* Animate.css 动画 */
+}
+
+.closet-card {
+  border: 1px solid #ccc;
+  padding: 8px;
+  width: 180px;       /* 卡片宽度更大 */
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.closet-img {
+  width: 140px;       /* 图片宽度 */
+  height: 140px;      /* 图片高度 */
+  object-fit: cover;  /* 保持比例裁剪 */
+  display: block;
+  margin: 0 auto;     /* 居中 */
+}
+
+.closet-tags {
+  margin-top: 6px;
+}
+
+.closet-tag {
+  display: inline-block;
+  background-color: #eee;
+  padding: 2px 4px;
+  margin: 2px;
+  border-radius: 4px;
+  font-size: 12px;
+}

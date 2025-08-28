@@ -1,0 +1,309 @@
+.signup-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+.signup-signup {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: var(--dl-color-default-);
+}
+
+.signup-frame52 {
+  gap: 61px;
+  top: 81px;
+  left: 421px;
+  width: 599px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+
+.signup-ellipse3 {
+  width: 150px;
+  height: 150px;
+}
+
+.signup-frame51 {
+  width: 599px;
+  height: 381px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  align-items: flex-start;
+}
+
+.signup-email {
+  top: 26px;
+  left: 119px;
+  width: 360px;
+  height: 56px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.signup-email-default11 {
+  top: 0px;
+  left: 0px;
+  width: 360px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+
+.signup-searchbar1 {
+  gap: 4px;
+  width: 360px;
+  height: 56px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 28px;
+  background-color: var(--dl-color-m3_sys_light-surfacecontainerhigh);
+}
+
+.signup-statelayer1 {
+  gap: -16px;
+  display: flex;
+  padding: 4px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+}
+
+.signup-content1 {
+  gap: 10px;
+  display: flex;
+  padding: 0 20px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+}
+
+.signup-text1 {
+  color: var(--dl-color-m3_sys_light-onsurfacevariant);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+
+.signup-password {
+  top: 120px;
+  left: 119px;
+  width: 360px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+
+.signup-email-default12 {
+  display: flex;
+  align-items: flex-start;
+}
+
+.signup-searchbar2 {
+  gap: 4px;
+  width: 360px;
+  height: 56px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 28px;
+  background-color: var(--dl-color-m3_sys_light-surfacecontainerhigh);
+}
+
+.signup-statelayer2 {
+  gap: -16px;
+  display: flex;
+  padding: 4px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+}
+
+.signup-content2 {
+  gap: 10px;
+  display: flex;
+  padding: 0 20px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+}
+
+.signup-text2 {
+  color: var(--dl-color-m3_sys_light-onsurfacevariant);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+
+.signup-gender {
+  top: 214px;
+  left: 119px;
+  width: 360px;
+  height: 56px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.signup-email-default13 {
+  top: 0px;
+  left: 0px;
+  width: 360px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+
+.signup-searchbar3 {
+  gap: 4px;
+  width: 360px;
+  height: 56px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 28px;
+  background-color: var(--dl-color-m3_sys_light-surfacecontainerhigh);
+}
+
+.signup-statelayer3 {
+  gap: -16px;
+  display: flex;
+  padding: 4px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+}
+
+.signup-content3 {
+  gap: 10px;
+  display: flex;
+  padding: 0 20px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+}
+
+.signup-text3 {
+  color: var(--dl-color-m3_sys_light-onsurfacevariant);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+
+.signup-birthday {
+  top: 308px;
+  left: 119px;
+  width: 360px;
+  height: 56px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.signup-email-default14 {
+  top: 0px;
+  left: 0px;
+  width: 360px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+
+.signup-searchbar4 {
+  gap: 4px;
+  width: 360px;
+  height: 56px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 28px;
+  background-color: var(--dl-color-m3_sys_light-surfacecontainerhigh);
+}
+
+.signup-statelayer4 {
+  gap: -16px;
+  display: flex;
+  padding: 4px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+}
+
+.signup-content4 {
+  gap: 10px;
+  display: flex;
+  padding: 0 20px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+}
+
+.signup-text4 {
+  color: var(--dl-color-m3_sys_light-onsurfacevariant);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+
+.signup-text5 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 32px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: center;
+  font-family: Aladin;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.signup-letsgetstarted {
+  width: 398px;
+  height: 60px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background-color: rgba(194, 209, 61, 0.4000000059604645);
+}
+
+.signup-text8 {
+  top: 11px;
+  left: 110px;
+  color: rgba(65, 167, 58, 0.6800000071525574);
+  width: 179px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Aladin;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}

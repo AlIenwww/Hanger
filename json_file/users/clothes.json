@@ -1,0 +1,86 @@
+[
+    {
+        "cloth_id": "c30a527f-c1fe-4c6d-ab7c-6e7b0103f9d7",
+        "cloth_info": {
+            "img": "/user_images/img/c30a527f-c1fe-4c6d-ab7c-6e7b0103f9d7.png",
+            "tags": "[{'cloth_id': 'c30a527f-c1fe-4c6d-ab7c-6e7b0103f9d7', 'colors': ['dark slate grey', 'eerie black', \"davy's grey\", 'linen', 'smokey grey'], 'clothes': ['outerwear', 'coat'], 'tags': {'garment parts': ['lapel', 'pocket', 'sleeve'], 'opening type': ['single breasted'], 'apparel': ['jacket'], 'nickname': ['blazer', 'set-in sleeve', 'notched (lapel)', 'welt (pocket)', 'patch (pocket)'], 'length': ['wrist-length', 'hip (length)'], 'silhouette': ['symmetrical', 'regular (fit)'], 'textile pattern': ['plain'], 'finishing technique': ['lining'], 'non-textile material type': ['plastic']}}]"
+        }
+    },
+    {
+        "cloth_id": "c12bb4c1-9735-427b-aef1-f3821ac39cbc",
+        "cloth_info": {
+            "img": "/user_images/img/c12bb4c1-9735-427b-aef1-f3821ac39cbc.png",
+            "tags": "[{'cloth_id': 'c12bb4c1-9735-427b-aef1-f3821ac39cbc', 'colors': ['silver', 'dark gray', 'rosy brown', 'browish grey', 'platinum'], 'clothes': ['top', 'shirt'], 'tags': {'apparel': ['top'], 'garment parts': ['sleeve', 'collar'], 'length': ['short sleeve (length)', 'above the hip (length)'], 'opening type': ['single breasted'], 'silhouette': ['symmetrical', 'regular (fit)'], 'nickname': ['shirt (collar)', 'set-in sleeve'], 'textile pattern': ['plain']}}]"
+        }
+    },
+    {
+        "cloth_id": "0bb6d4f6-c205-42a9-b49c-40b9cfe9d867",
+        "cloth_info": {
+            "img": "/user_images/img/0bb6d4f6-c205-42a9-b49c-40b9cfe9d867.png",
+            "tags": "[{'cloth_id': '0bb6d4f6-c205-42a9-b49c-40b9cfe9d867', 'colors': ['blue yonder', \"b'dazzled blue\", 'dusk blue', 'purple navy', 'dark green'], 'clothes': ['pants'], 'tags': {'garment parts': ['pocket'], 'opening type': ['fly (opening)'], 'textile pattern': ['plain'], 'silhouette': ['straight'], 'apparel': ['pants', 'shorts'], 'waistline': ['normal waist'], 'length': ['maxi (length)'], 'decorations': ['rivet'], 'nickname': ['slash (pocket)']}}]"
+        }
+    },
+    {
+        "cloth_id": "94d48c1e-3ea6-48c8-bd00-a3aaa9a616a4",
+        "cloth_info": {
+            "img": "/user_images/img/94d48c1e-3ea6-48c8-bd00-a3aaa9a616a4.png",
+            "tags": "[{'cloth_id': '94d48c1e-3ea6-48c8-bd00-a3aaa9a616a4', 'colors': ['dark grey', 'rifle green', 'eerie black', 'spanish gray', 'smokey grey'], 'clothes': ['pants'], 'tags': {'garment parts': ['pocket'], 'apparel': ['pants', 'shorts'], 'textile pattern': ['plain'], 'waistline': ['normal waist'], 'nickname': ['slash (pocket)'], 'length': ['maxi (length)']}}]"
+        }
+    },
+    {
+        "cloth_id": "bb7211cf-3a98-44cb-a969-2e74cd2bcb78",
+        "cloth_info": {
+            "img": "/user_images/img/bb7211cf-3a98-44cb-a969-2e74cd2bcb78.png",
+            "tags": "[{'cloth_id': 'bb7211cf-3a98-44cb-a969-2e74cd2bcb78', 'colors': ['periwinkle grey', 'columbia blue', 'cool grey', 'slate gray', 'mid grey'], 'clothes': ['outerwear'], 'tags': {'garment parts': ['hood', 'pocket', 'sleeve'], 'textile pattern': ['plain'], 'length': ['wrist-length', 'hip (length)'], 'silhouette': ['symmetrical', 'regular (fit)'], 'apparel': ['jacket'], 'closures': ['zipper'], 'nickname': ['kangaroo (pocket)', 'set-in sleeve'], 'opening type': ['zip-up']}}]"
+        }
+    },
+    {
+        "cloth_id": "8204298b-e5cb-440b-9767-2ff1fb0b9826",
+        "cloth_info": {
+            "img": "/user_images/img/8204298b-e5cb-440b-9767-2ff1fb0b9826.png",
+            "tags": "[{'cloth_id': '8204298b-e5cb-440b-9767-2ff1fb0b9826', 'colors': ['satin linen', 'silver', 'van dyke brown', 'spanish gray', 'albescent white'], 'clothes': ['outerwear'], 'tags': {'garment parts': ['pocket', 'sleeve', 'hood'], 'length': ['wrist-length', 'hip (length)'], 'textile pattern': ['plain'], 'silhouette': ['symmetrical', 'regular (fit)'], 'finishing technique': ['lining'], 'opening type': ['zip-up'], 'apparel': ['jacket'], 'nickname': ['flap (pocket)', 'set-in sleeve'], 'closures': ['zipper']}}]"
+        }
+    },
+    {
+        "cloth_id": "fcdcda8d-3dba-4202-84fe-7f27ed76a94c",
+        "cloth_info": {
+            "img": "/user_images/img/fcdcda8d-3dba-4202-84fe-7f27ed76a94c.png",
+            "tags": "[{'cloth_id': 'fcdcda8d-3dba-4202-84fe-7f27ed76a94c', 'colors': ['smokey grey', 'shuttle grey', 'dark grey', 'eerie black', 'linen'], 'clothes': ['outerwear'], 'tags': {'finishing technique': ['quilted'], 'nickname': ['puffer (jacket)', 'set-in sleeve', 'puffer (coat)'], 'textile pattern': ['plain'], 'opening type': ['zip-up'], 'closures': ['zipper'], 'garment parts': ['sleeve', 'collar'], 'apparel': ['jacket'], 'length': ['wrist-length', 'above the hip (length)'], 'silhouette': ['symmetrical', 'regular (fit)'], 'waistline': ['normal waist']}}]"
+        }
+    },
+    {
+        "cloth_id": "24f8c328-c807-44df-b640-70af060d2831",
+        "cloth_info": {
+            "img": "/user_images/img/24f8c328-c807-44df-b640-70af060d2831.png",
+            "tags": "[{'cloth_id': '24f8c328-c807-44df-b640-70af060d2831', 'colors': ['chocolate brown', 'old burgundy', 'purplish grey', 'woody brown', 'congo brown'], 'clothes': ['outerwear'], 'tags': {'garment parts': ['sleeve', 'collar', 'pocket'], 'length': ['wrist-length', 'above the hip (length)'], 'opening type': ['single breasted'], 'apparel': ['jacket'], 'silhouette': ['symmetrical', 'regular (fit)'], 'textile pattern': ['plain'], 'nickname': ['set-in sleeve', 'regular (collar)'], 'finishing technique': ['lining']}}]"
+        }
+    },
+    {
+        "cloth_id": "2fa7c104-f3c4-453c-867d-9fc2b50b639e",
+        "cloth_info": {
+            "img": "/user_images/img/2fa7c104-f3c4-453c-867d-9fc2b50b639e.png",
+            "tags": "[{'cloth_id': '2fa7c104-f3c4-453c-867d-9fc2b50b639e', 'colors': ['linen', 'silver sand', 'dark gray', 'smokey grey', 'granite gray'], 'clothes': ['skirt'], 'tags': {'apparel': ['skirt'], 'waistline': ['normal waist'], 'silhouette': ['flare'], 'nickname': ['dirndl (skirt)'], 'finishing technique': ['pleat']}}]"
+        }
+    },
+    {
+        "cloth_id": "26df8c87-656d-4aaa-98e4-8b6f4827ecfd",
+        "cloth_info": {
+            "img": "/user_images/img/26df8c87-656d-4aaa-98e4-8b6f4827ecfd.png",
+            "tags": "[{'cloth_id': '26df8c87-656d-4aaa-98e4-8b6f4827ecfd', 'colors': ['dark grey', 'eerie black', \"davy's grey\", 'smokey grey', 'bluish grey'], 'clothes': ['skirt'], 'tags': {'apparel': ['skirt'], 'waistline': ['normal waist']}}]"
+        }
+    },
+    {
+        "cloth_id": "9ef631de-3fe6-4acd-852e-44f11e7af180",
+        "cloth_info": {
+            "img": "/user_images/img/9ef631de-3fe6-4acd-852e-44f11e7af180.png",
+            "tags": "[{'cloth_id': '9ef631de-3fe6-4acd-852e-44f11e7af180', 'colors': [\"davy's grey\", 'smoky black', 'dark grey', 'dim gray', 'davy grey'], 'clothes': ['skirt'], 'tags': {'apparel': ['skirt'], 'waistline': ['normal waist'], 'finishing technique': ['pleat', 'gathering'], 'length': ['mini (length)'], 'silhouette': ['flare'], 'textile pattern': ['plain'], 'nickname': ['dirndl (skirt)']}}]"
+        }
+    },
+    {
+        "cloth_id": "fd889879-c93f-4751-ad63-b53f64e1ace9",
+        "cloth_info": {
+            "img": "/user_images/img/fd889879-c93f-4751-ad63-b53f64e1ace9.png",
+            "tags": "[{'cloth_id': 'fd889879-c93f-4751-ad63-b53f64e1ace9', 'colors': ['smoky black', 'dark grey', 'smokey grey', 'dim gray', 'davy grey'], 'clothes': ['pants', 'belt'], 'tags': {'apparel': ['pants', 'shoe'], 'length': ['maxi (length)'], 'garment parts': ['pocket'], 'textile pattern': ['plain'], 'nickname': ['slash (pocket)'], 'opening type': ['fly (opening)'], 'silhouette': ['straight', 'regular (fit)'], 'waistline': ['low waist']}}]"
+        }
+    }
+]
